@@ -6,16 +6,22 @@ body {
 .title {
     text-align: center;
     font-size: 200px;
-    transition: padding 2s, background-color 3s;
+    -webkit-background-clip: text;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
 }
 
 .title:hover {
-    padding-bottom: 150px;
-    background: linear-gradient(180deg, #eee, white);
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
-img {
+.expanding-link {
     width: 200px;
     height: 200px;
     transition: width 1s, height 1.5s, border 1s, box-shadow 3s;
@@ -24,7 +30,7 @@ img {
     border-radius: 50px;
 }
 
-img:hover {
+.expanding-link:hover {
     width: 300px;
     height: 300px;
     border: 1px solid black;
