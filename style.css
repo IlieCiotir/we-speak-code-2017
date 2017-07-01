@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 200px;
+    transition: padding 2s, background-color 3s;
+    margin-bottom: 50px;
+}
+
+.title:hover {
+    padding-bottom: 150px;
+    background: linear-gradient(180deg, #eee, white);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: width 1s, height 1.5s, border 1s, box-shadow 3s;
+    padding: 30px;
+    border: 3px solid #eee;
+    border-radius: 50px;
+}
+
+img:hover {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px 1px #eee;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
