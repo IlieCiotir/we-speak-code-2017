@@ -81,7 +81,7 @@ body {
 }
 
 .item-list > .item:hover {
-    box-shadow: 2px 2px 2px #eee;
+    transform: scale(1.01);
 }
 
 .item-list > .item > .description {
