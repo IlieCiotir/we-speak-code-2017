@@ -59,3 +59,36 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.item-list {
+    padding: 50px;
+    padding-top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item-list > .item {
+    width: 300px;
+    padding: 30px;
+    background-color: #efefef;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    min-height: 150px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.item-list > .item:hover {
+    box-shadow: 2px 2px 2px #eee;
+}
+
+.item-list > .item > .description {
+    font-size: 20px;
+}
+
+.item-list > .item > .link {
+    font-size: 30px;
+    text-align: center;
+}
