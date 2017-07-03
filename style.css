@@ -92,3 +92,29 @@ body {
     font-size: 30px;
     text-align: center;
 }
+
+.featured {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    top: 0;
+    right: 0;
+}
+
+.featured .feature {
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #eee;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+}
+
+.featured .feature:hover {
+    transform: scale(1.01);
+}

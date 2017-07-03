@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>#WeSpeakCode</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<script>
+		function salutBa(nume) {
+			if (nume == "Ion") {
+				for(var ori=0; ori < 10; ori = ori + 1) {
+					alert("Salut " + nume);					
+				}
+				alert('Pa!');
+				
+			} else {
+				alert("mrgl mrgl");
+			}
+			
+		}
+		
+		
+		function pret10() {
+			var pret = pretPortocale(10);
+			alert(pret);
+		}
+		
+		function pretPortocale(kg) {
+			return 5 * kg;
+		}
+	</script>
+	
+</head>
+<body>
+ <h1  title="Hello!"  class="text-rotit"> We speak code? </h1>
+ <h2 class="text-rotit"> Do we speak it?</h2>
+ <img src="https://tctechcrunch2011.files.wordpress.com/2015/04/codecode.jpg?w=738"></img>
+ <button class="text-rotit" onclick="salutBa('Ion')">Apasa!</button>
+  <h1 id="primul" title="Hello!" class="text-rotit"> We speak code? </h1>
+</body>
+</html>
