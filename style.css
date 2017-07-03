@@ -93,6 +93,26 @@ body {
     text-align: center;
 }
 
+.example {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.example .description {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.example .full {
+    width: 100%;
+}
+
+.example .half {
+    width: 50%;
+}
+
 .featured {
     position: absolute;
     display: flex;

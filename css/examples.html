@@ -1,13 +1,54 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/png/512/1/1533.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="examples.css">
 </head>
 
 <body>
     <div class="title">
         #CSS examples
+    </div>
+    <div id="rotate-on-hover-animation" class="example example-1">
+        <div class="full description">
+            Spinning an element when the mouse hovers over it
+        </div>
+        <div class="half">
+            <pre style='color:#d1d1d1;background:#000000;'><span style='color:#d2cd86; '>.</span>rotate-on-hover <span style='color:#b060b0; '>{</span>
+    <span style='color:#904050; '>text-align</span><span style='color:#d2cd86; '>:</span> center<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>font-size</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>20</span><span style='color:#006600; '>px</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>border</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>1</span><span style='color:#006600; '>px</span> solid <span style='color:#00a800; '>#</span><span style='color:#00a800; '>eee</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>width</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>100</span><span style='color:#006600; '>px</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>padding</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>20</span><span style='color:#006600; '>px</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>margin-right</span><span style='color:#d2cd86; '>:</span> auto<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>margin-left</span><span style='color:#d2cd86; '>:</span> auto<span style='color:#b060b0; '>;</span>
+<span style='color:#b060b0; '>}</span>
+
+<span style='color:#d2cd86; '>.</span>rotate-on-hover<span style='color:#b060b0; '>:</span><span style='color:#e66170; font-weight:bold; '>hover</span> <span style='color:#b060b0; '>{</span>
+    <span style='color:#904050; '>animation</span><span style='color:#d2cd86; '>:</span> rotate-on-hover-animation<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>animation-direction</span><span style='color:#d2cd86; '>:</span> <span style='color:#e66170; font-weight:bold; '>reverse</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>animation-duration</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>1</span><span style='color:#006600; '>s</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>animation-direction</span><span style='color:#d2cd86; '>:</span> alternate<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>animation-iteration-count</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>3</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>transform</span><span style='color:#d2cd86; '>:</span> <span style='color:#e66170; font-weight:bold; '>rotate</span><span style='color:#d2cd86; '>(</span><span style='color:#00a800; '>190</span><span style='color:#006600; '>deg</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+<span style='color:#b060b0; '>}</span>
+
+<span style='color:#b060b0; '>@</span><span style='color:#008073; '>keyframes</span> <span style='color:#00c4c4; '>rotate-on-hover-animation</span> <span style='color:#b060b0; '>{</span>
+    <span style='color:#006600; '>from</span> <span style='color:#b060b0; '>{</span>
+        <span style='color:#904050; '>transform</span><span style='color:#d2cd86; '>:</span> <span style='color:#e66170; font-weight:bold; '>rotate</span><span style='color:#d2cd86; '>(</span><span style='color:#00a800; '>0</span><span style='color:#006600; '>deg</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#b060b0; '>}</span>
+    <span style='color:#006600; '>to</span> <span style='color:#b060b0; '>{</span>
+        <span style='color:#904050; '>transform</span><span style='color:#d2cd86; '>:</span> <span style='color:#e66170; font-weight:bold; '>rotate</span><span style='color:#d2cd86; '>(</span><span style='color:#00a800; '>190</span><span style='color:#006600; '>deg</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#b060b0; '>}</span>
+<span style='color:#b060b0; '>}</span>
+</pre>
+        </div>
+        <div class="half demo">
+            <div class="rotate-on-hover">
+                Hover here!
+            </div>
+        </div>
     </div>
 </body>
 
