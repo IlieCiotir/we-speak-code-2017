@@ -111,6 +111,7 @@ body {
 
 .example .half {
     width: 50%;
+    overflow-x: hidden;
 }
 
 .featured {
