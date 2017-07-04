@@ -92,6 +92,30 @@
             <a href="fixed-background-example.html">Go to example</a>
         </div>
     </div>
+
+    <div id="fixed-background" class="example example-3">
+        <div class="full description">
+            Hiding an element when the mouse hovers over it
+        </div>
+        <div class="half">
+            <pre style='color:#d1d1d1;background:#000000;'><span style='color:#d2cd86; '>.</span>opacity <span style='color:#b060b0; '>{</span>
+    <span style='color:#904050; '>transition</span><span style='color:#d2cd86; '>:</span> opacity <span style='color:#00a800; '>2</span><span style='color:#006600; '>s</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>margin-left</span><span style='color:#d2cd86; '>:</span> auto<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>margin-right</span><span style='color:#d2cd86; '>:</span> auto<span style='color:#b060b0; '>;</span>
+    <span style='color:#904050; '>width</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>100</span><span style='color:#b060b0; '>;</span>
+<span style='color:#b060b0; '>}</span>
+
+<span style='color:#d2cd86; '>.</span>opacity<span style='color:#b060b0; '>:</span><span style='color:#e66170; font-weight:bold; '>hover</span> <span style='color:#b060b0; '>{</span>
+    <span style='color:#904050; '>opacity</span><span style='color:#d2cd86; '>:</span> <span style='color:#00a800; '>0.3</span><span style='color:#b060b0; '>;</span>
+<span style='color:#b060b0; '>}</span>
+</pre>
+        </div>
+        <div class="half demo">
+            <div class="opacity">
+                <img src="data:image/png;base64,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">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
