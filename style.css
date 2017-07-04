@@ -114,6 +114,11 @@ body {
     overflow-x: hidden;
 }
 
+.example .demo .btn {
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
 .featured {
     position: absolute;
     display: flex;
@@ -138,4 +143,48 @@ body {
 
 .featured .feature:hover {
     transform: scale(1.01);
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    text-decoration: none;
+}
+
+.btn:hover {
+    animation: goto-button-animation;
+    animation-direction: reverse;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+}
+
+@keyframes goto-button-animation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
