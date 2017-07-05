@@ -3,11 +3,57 @@
 <head>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/png/512/1/1533.png">
+    <script src="hideshow.js"></script>
 </head>
 
 <body>
     <div class="title">
         #Javascript examples
+    </div>
+    <div id="hide-show-element" class="example example-1">
+        <div class="full description">
+            Hide and show element functions
+        </div>
+        <div class="half">
+            <pre style='color:#d1d1d1;background:#000000;'><span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>html</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>head</span><span style='color:#ff8906; '>></span>
+        <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>script</span><span style='color:#ff8906; '>></span>
+            <span style='color:#e66170; font-weight:bold; '>function</span> showElement<span style='color:#d2cd86; '>(</span>id<span style='color:#d2cd86; '>)</span> <span style='color:#b060b0; '>{</span>
+                <span style='color:#e66170; font-weight:bold; '>var</span> element <span style='color:#d2cd86; '>=</span> document<span style='color:#d2cd86; '>.</span>getElementById<span style='color:#d2cd86; '>(</span>id<span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+                element<span style='color:#d2cd86; '>.</span>style<span style='color:#d2cd86; '>.</span>display <span style='color:#d2cd86; '>=</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>block</span><span style='color:#02d045; '>"</span><span style='color:#b060b0; '>;</span>
+            <span style='color:#b060b0; '>}</span>
+
+            <span style='color:#e66170; font-weight:bold; '>function</span> hideElement<span style='color:#d2cd86; '>(</span>id<span style='color:#d2cd86; '>)</span> <span style='color:#b060b0; '>{</span>
+                <span style='color:#e66170; font-weight:bold; '>var</span> element <span style='color:#d2cd86; '>=</span> document<span style='color:#d2cd86; '>.</span>getElementById<span style='color:#d2cd86; '>(</span>id<span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+                element<span style='color:#d2cd86; '>.</span>style<span style='color:#d2cd86; '>.</span>display <span style='color:#d2cd86; '>=</span> <span style='color:#02d045; '>"</span><span style='color:#00c4c4; '>none</span><span style='color:#02d045; '>"</span><span style='color:#b060b0; '>;</span>
+            <span style='color:#b060b0; '>}</span>
+        <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>script</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>head</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>body</span><span style='color:#ff8906; '>></span>
+        <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>div</span> onclick<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"showElement('example-1-demo')"</span><span style='color:#ff8906; '>></span>
+            Show
+        <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>div</span><span style='color:#ff8906; '>></span>
+        <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>div</span> onclick<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"hideElement('example-1-demo')"</span><span style='color:#ff8906; '>></span>
+            Hide
+        <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>div</span><span style='color:#ff8906; '>></span>
+        <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>div</span> id<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"example-1-demo"</span><span style='color:#ff8906; '>></span>
+            Now you see me!
+        <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>div</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>body</span><span style='color:#ff8906; '>></span>
+<span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>html</span><span style='color:#ff8906; '>></span>
+</pre>
+        </div>
+        <div class="half demo">
+            <div class="action" onclick="showElement('example-1-demo')">
+                Show
+            </div>
+            <div class="action" onclick="hideElement('example-1-demo')">
+                Hide
+            </div>
+            <div id="example-1-demo" class="target">
+                Now you see me!
+            </div>
+        </div>
     </div>
 </body>
 

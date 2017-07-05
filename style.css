@@ -119,6 +119,22 @@ body {
     margin-top: 20%;
 }
 
+.example .demo .action {
+    cursor: pointer;
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.example .demo .target {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
 .featured {
     position: absolute;
     display: flex;
