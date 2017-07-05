@@ -157,6 +157,23 @@ body {
     color: black;
 }
 
+.featured .feature.important {
+    animation: important-feature;
+    animation-duration: 200ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes important-feature {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02);
+        border: 1px solid red;
+    }
+}
+
 .featured .feature:hover {
     transform: scale(1.01);
 }
