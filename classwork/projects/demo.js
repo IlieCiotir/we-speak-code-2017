@@ -4,20 +4,19 @@ function startAnimation(className, animationClass, increment) {
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
 
-        showLater(element, delay, animationClass);
+        showLater(element, delay, animationClass, increment);
         delay += increment;
     }
 
     showLast(document.getElementById('last'), delay);
 }
 
-function showLater(element, delay, animationClass) {
+function showLater(element, delay, animationClass, expiration) {
     setTimeout(function () {
-        console.log(element);
         element.classList.add(animationClass);
         setTimeout(function () {
             element.classList.remove(animationClass);
-        }, 4000);
+        }, expiration);
     }, delay);
 }
 

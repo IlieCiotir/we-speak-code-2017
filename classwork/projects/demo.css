@@ -2,12 +2,12 @@
     animation: disappear-top;
     animation-delay: 6s;
     animation-iteration-count: 1;
-    animation-timing-function: ease;
+    animation-timing-function: ease-out;
     animation-duration: 2s;
     display: block !important;
 }
 
-.slide {
+.slide, .last-slide {
     display: none;
 }
 
