@@ -1,0 +1,85 @@
+.sase {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+
+
+}
+
+.titlu {
+margin-top: 50px;
+text-align: center;
+font-family: arial;
+}
+.devider {
+text-align: center;
+margin-top: -75px;
+}
+
+.cinci-sapte {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+margin-top: -10px;
+	
+}
+.zece {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+	margin-top: -10px;
+}
+.opt {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+	margin-top: -10px;
+}
+.unul {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+	margin-top: -10px;
+}
+.doi {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+	margin-top: -10px;
+}
+.trei {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+	margin-top: -10px;
+}
+.patru {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: black;
+margin-top: -10px;	
+}
+.button {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-left: 1100px;
+    margin-bottom: 15px;
+}
+a {
+color:white;

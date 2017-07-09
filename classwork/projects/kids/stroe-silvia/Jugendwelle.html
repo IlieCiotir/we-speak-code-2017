@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jugendwelle Temeswar</title>
+  <link rel="stylesheet" href="jgw.css"></link>
+  <style>
+    body{background-image:url(Welle.PNG);
+    background-repeat: repeat-y
+    background-color:#778899;
+  }
+    .dropbtn {
+    background-color: #008080;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    left : 100px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+button  {
+  background-color: #008080;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+margin-left: 120px;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #000000;
+    padding: 20px;
+    width: 1300px;
+    height: 50px;
+}
+
+
+.opacity {
+    transition: opacity 2s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+}
+
+.opacity:hover {
+    opacity: 0.4;
+}
+
+  </style>
+  </head>
+  <body>
+    <div background-color=black class="opacity">
+    <h1 id="rcorners1"><font color="white" face="verdana">Jeder erster Freitag am Anfang des Monats</font></h1>
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn">Sendungen</button>
+  <div class="dropdown-content">
+    <a href="#">Herbst</a>
+    <a href="#">Winter</a>
+    <a href="#">Frühling</a>
+    <a href="#">Sommer</a>
+  </div>
+  </div>
+  <button >Workshops</button>
+  <button >Anmeldungen</button>
+  <button title="Kommentarseite">Rede mit !</button>
+  <div class="dropdown">
+    <button class="dropbtn">Erfahre mehr </button>
+    <div class="dropdown-content">
+      <a href="#">Radioarbeit</a>
+      <a href="#">Radioteam</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <img src="jugendwelleProfil4.jpg" style="width:500px;height:250px;margin:30px auto;display:block" >
+    <img src="radiotm.jpg" style="width:250px;height:100px;margin:30px auto;display:block;cursor:pointer" onclick="redirect();" >
+  </body>
+
+  <script>
+    function redirect() {
+      window.open("http://www.google.com");
+    }
+  </script>
+</html>

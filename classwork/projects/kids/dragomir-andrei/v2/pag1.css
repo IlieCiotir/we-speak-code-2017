@@ -1,0 +1,100 @@
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    -webkit-background-clip: text;
+    width: 70%;
+   margin-right: auto;
+   margin-left: auto;
+    margin-bottom: 50px;
+    border-bottom: 1px solid transparent;
+}
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+} 
+.icon-style-1 .builder-element-icon {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background: black;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    -webkit-transition: all 1s;
+    transition: all 1;
+}    
+
+.icon-style-1 .builder-element-icon:hover{
+    background: black;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.icon-style-2 .builder-element-icon {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background: black;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    -webkit-transition: all 1s;
+    transition: all 1;
+    float: right;
+}    
+.icon-style-2 .builder-element-icon:hover{
+    background: black;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.icon-style-3 .builder-element-icon {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    background: black;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    -webkit-transition: all 1s;
+    transition: all 1;
+
+}    
+.icon-style-3 .builder-element-icon:hover{
+    background: black;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.icon-style-2 {
+    width: 25%;
+    float: left;
+}
+.icon-style-3 {
+width: 25%;
+float: right;
+}
+.chestii {
+text-decoration: none;
+}
+
+
+
+
+
+

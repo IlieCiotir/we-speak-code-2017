@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Acasa</title>
+        <link rel="stylesheet" href="style1.css">
+
+    </head>
+    <body>
+        
+        <h1 id="1" title="Destinatii de vacanta" class="text"> „Oriunde te duci, du-te cu toată inima.”</h1>
+        
+        <center>
+        <a href="index1.html"><button class="button" onclick="index1.html">Acasa</button></a>
+        <a href="index2.html"><button class="button" onclick="index2.html">Destinatii</button></a>
+        <a href="index3.html"><button class="button" onclick="index3.html">Cazare</button></a>    
+        </center>
+ 
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <img src="http://cdn.wallpapersafari.com/45/5/CLId84.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="http://farm8.staticflickr.com/7302/9578066061_a3b4a41666_k_d.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/9a/f3/f1/9af3f1b8ab72661955d7e3b1e3e98e15.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>    
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+    </body>
+</html>

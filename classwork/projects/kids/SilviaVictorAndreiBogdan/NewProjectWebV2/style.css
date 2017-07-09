@@ -1,0 +1,201 @@
+/* Menu */
+
+
+body{font-family:"Verdana";}
+.container{
+margin:auto;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+
+}
+.nav {
+  
+    list-style-type: none;
+    margin:auto;
+    width:100%;
+    height: 60px;
+    padding:0px;
+    overflow: hidden;
+    top:0;
+    background-color: #111;
+}
+
+
+.nav li {
+  display: inline-block;
+  margin-left: 5px;
+  padding-top: 15px;
+
+  position: relative;
+}
+.nav li a{
+    color:#CC9933;
+  font-size:15px;
+  float:left;
+    margin-top:0px;
+  margin-left: 15px;
+  padding:0px;
+  text-align: center;
+  display: block;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+.nav a:hover {
+  color: #ffde32;
+}
+
+.nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #878162;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.nav a:hover::before {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.material-icons {vertical-align:-14%}
+
+.header-box{
+    background-image:url(imagini/Beachchairs.jpg);
+    width:100%;
+    height:600px;
+    background-size: auto 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+background-repeat: no-repeat;
+    
+
+}
+.content1{
+   
+    padding: 25px 0;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    height: 50%;
+    
+    
+    
+}
+.large-window{
+        height:640px;
+    margin-left:25%;
+    margin-top:-200px;
+    width:50%;
+    background-image: url(imagini/unexpensive-traveling.jpg);
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+    border-color: black;
+}
+
+#earth {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 3em auto;
+  background: url(imagini/Land_shallow_topo_2048.jpg) 0 0 repeat;
+  border-radius: 50%;
+  background-size: 630px;
+  animation: rotate 4s linear infinite;
+  transition: transform 200ms linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+  color: #000;
+}
+
+#earth:after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  
+}
+
+#earth:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 630px 0;}
+}
+.line{border: 0;
+    margin-left:25%;
+    margin-top:-60px;
+  width: 50%;
+color: black;
+background-color: black;
+height: 3px;}
+.line2{border: 0;
+
+    margin-left:25%;
+    margin-top:-30px;
+  width: 50%;
+color: black;
+background-color: black;
+height: 3px;}
+.line1{border: 0;
+    margin-left:10%;
+   
+  width: 80%;
+color: black;
+background-color: black;
+height: 3px;}
+
+.logo{
+    background-image:url(imagini/logo.png);
+    height:450px;
+    width:400px;
+    margin-left:550px;
+    margin-top:200px;
+    background-repeat: no-repeat;
+}
+.cotent{
+    margin:50%; 
+}
+#map {
+        width: 300px;
+        height: 400px;
+        background-color: grey;
+      }
+

@@ -1,0 +1,86 @@
+.text{
+               text-align:center; 
+               color:#000000;
+               margin-top: auto;
+               /*transform:rotate(190deg);*/
+            }
+.titlu{
+           font-size: 30px;
+           padding-top: 50px;
+           text-align:center; 
+           /*color:#545454;*/
+            color: darkslategrey;
+            font-family: fantasy;
+       }
+/*.text{
+               text-align:center; 
+               /*color:#545454;*/
+               /* color: darkslategrey;
+            }*/
+.navbar { 
+    padding-top: 20px;
+    position: sticky;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+.menu{
+     background-color: antiquewhite;
+    padding-left: 35%;
+   /*padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+    font-family: fantasy;
+   border-radius: 12px;
+    width:250px;
+    display: inline;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+/*slide*/
+.slideshow-container {
+  max-width: 100%;
+  height: auto;    
+  position: sticky;
+  margin: auto;
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

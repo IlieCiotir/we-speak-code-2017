@@ -1,0 +1,136 @@
+.navbar { 
+    padding-top: 50px;
+}
+.titlu{
+           font-size: 30px;
+           padding-top: 40px;
+           text-align:center; 
+           /*color:#545454;*/
+            color: darkslategrey;
+            font-family: fantasy;
+       }
+body {margin:25px;}
+
+div.polaroid {
+  
+min-height: 200px;
+  
+float: left;
+  
+margin-right: 50px;
+  
+width: 30%;
+  
+max-width: 350px;
+  
+background-color: white;
+  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+margin-bottom: 25px;
+}
+
+.polaroid img{
+    width: 100%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.mtop{
+    margin-top: 100px;
+}
+.mtop2{
+    margin-top: -350px;
+}
+.mtop4{
+    margin-top: -300px;
+}
+.mtop3{
+    margin-top: -50px;
+}
+.mtop7{
+    margin-top: -340px;
+}
+.mtop6{
+    margin-top: -80px;
+}
+.mtop8{
+    margin-top: -40px;
+    margin-right: -30px;
+}
+.mtop10{
+    margin-top: -100px;
+}
+.mtop11{
+    margin-top: -50px;
+}
+.mtop13{
+    margin-top:  20px;
+}
+.rotate{
+    transform: rotate(5deg);
+}
+.rotate1{
+    transform: rotate(-5deg);
+}
+.rotate2{
+    transform: rotate(-10deg);
+}
+.menu{
+     background-color: antiquewhite;
+     padding-left: 32%;
+     position: absolute;
+     top: 0px;
+     width: 75%;
+     font-family: fantasy;
+}
+
+.1{
+    background-color:antiquewhite;
+    width: auto;
+}
+#1{
+    margin-top: -300px;
+}
+/*slide*/
+.slideshow-container {
+  max-width: 100%;
+  height: auto;    
+  position: sticky;
+  margin: auto;
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

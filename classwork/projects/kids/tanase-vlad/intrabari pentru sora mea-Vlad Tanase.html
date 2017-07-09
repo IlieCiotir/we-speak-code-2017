@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>Intrebari Matematica</title>
+        </head>
+        <body>
+            <h1 id="subtitlu">Intrebari si raspunsuri</h1>
+            <p id="enunt">Care rezultatul calculului(500-120)-40x6?</p>
+            <button type="button" onclick='gresit1();' id="b1">150</button>
+            <button type="button" onclick='corect1();' id="b2">140</button>
+            <button type="button" onclick='gresit2();' id="b3">340</button>
+            <button type="button" onclick='urmeaza1();' style=display:none id="b4">Urmeaza</button>
+            <button type="button" onclick='gresit3();' style=display:none id="b5">60080</button>
+            <button type="button" onclick='gresit4();' style=display:none id="b6">5700</button>
+            <button type="button" onclick='corect2();' style=display:none id="b7">5800</button>
+            <button type="button" onclick='urmeaza2();' style=display:none id="b8">Urmeaza</button>
+            <button type="button" onclick='corect3();' style=display:none id="b9">54</button>
+            <button type="button" onclick='gresit5();' style=display:none id="b10">54, 57</button>
+            <button type="button" onclick='gresit6();' style=display:none id="b11">57</button>
+            <button type="button" onclick='urmeaza3();' style=display:none id="b12">Urmeaza</button>
+            <button type="button" onclick='gresit7();' style=display:none id="b13">Andrei=0, Alin=9</button>
+            <button type="button" onclick='corect4();' style=display:none id="b14">Andrei=2, Alin=8</button>
+            <button type="button" onclick='gresit8();' style=display:none id="b15">Andrei=2, Alin=7</button>
+            <button type="button" onclick='urmeaza4();' style=display:none id="b16">Urmeaza</button>
+            <img src="https://i.imgflip.com/18uiun.jpg" style=display:none id="i1"></img>
+            <button type="button" onclick='gresit9();' style=display:none id="b17"> </button>
+             
+         
+
+            <script>
+               function gresit1() {
+               document.getElementById("enunt").innerHTML = "Gresit!";
+               document.getElementById("b1").style.display= "none";
+               document.getElementById("b2").style.display= "none";
+               document.getElementById("b3").style.display= "none";
+               }
+
+               function gresit2() {
+               document.getElementById("enunt").innerHTML = "Gresit!";
+               document.getElementById("b1").style.display= "none";
+               document.getElementById("b2").style.display= "none";
+               document.getElementById("b3").style.display= "none";
+               } 
+
+               function corect1() {
+               document.getElementById("enunt").innerHTML = "Corect!";
+               document.getElementById("b1").style.display= "none";
+               document.getElementById("b2").style.display= "none";
+               document.getElementById("b3").style.display= "none";
+               document.getElementById("b4").style.display= "block";
+               }
+               
+               function urmeaza1() {
+               document.getElementById("subtitlu").innerHTML = "Intrebari si raspunsuri ex.2";
+               document.getElementById("enunt").innerHTML = "Ma gandesc la un numar, il inmultim cu 64 si din produs scadem 670, apoi aduman cu 70 si obtinem 5800. La ce numar m-am gandit?";
+               document.getElementById("b4").style.display= "none";
+               document.getElementById("b1").style.display= "none";
+               document.getElementById("b5").style.display= "block";
+               document.getElementById("b6").style.display= "block";
+               document.getElementById("b7").style.display= "block";
+               }
+
+               function gresit3() {
+               document.getElementById("enunt").innerHTML = "Gresit!";
+               document.getElementById("b5").style.display= "none";
+               document.getElementById("b6").style.display= "none";
+               document.getElementById("b7").style.display= "none";
+               }
+
+               function gresit4() {
+               document.getElementById("enunt").innerHTML = "Gresit!";
+               document.getElementById("b5").style.display= "none";
+               document.getElementById("b6").style.display= "none";
+               document.getElementById("b7").style.display= "none";
+               }
+              
+               function corect2() {
+               document.getElementById("enunt").innerHTML = "Corect!"
+               document.getElementById("b5").style.display="none";
+               document.getElementById("b6").style.display="none";
+               document.getElementById("b7").style.display="none";
+               document.getElementById("b8").style.display="block";
+               }
+                
+               function urmeaza2() {
+               document.getElementById("subtitlu").innerHTML = "Intrebari si raspunsuri ex.3";
+               document.getElementById("enunt").innerHTML = "Afla numarul care conpleteaza enumerarea: 12, 24, 27,...";
+               document.getElementById("b8").style.display="none"; 
+               document.getElementById("b9").style.display="block";
+               document.getElementById("b10").style.display="block";
+               document.getElementById("b11").style.display="block";
+               }
+
+                function corect3() {
+                document.getElementById("enunt").innerHTML = "Corect!";
+                document.getElementById("b12").style.display="block";
+                document.getElementById("b11").style.display="none";
+                document.getElementById("b10").style.display="none";
+                document.getElementById("b9").style.display="none";
+                } 
+
+                function gresit5() {
+                document.getElementById("enunt").innerHTML = "Gresit!";
+                document.getElementById("b9").style.display="none";
+                document.getElementById("b10").style.display="none";
+                document.getElementById("b11").style.display="none";
+                }
+
+                function gresit6() {
+                document.getElementById("enunt").innerHTML = "Gresit!";
+                document.getElementById("b9").style.display="none";
+                document.getElementById("b10").style.display="none";
+                document.getElementById("b11").style.display="none";
+                }
+
+                function urmeaza3() {
+                document.getElementById("subtitlu").innerHTML = "Intrebari si raspunsuri ex.4";
+                document.getElementById("enunt").innerHTML = "Daca Andrei a comandat o pizza de 10 felii, iar Alin a comandat si el o pizza de 12 felii, iar Lara isi ia 3 felii din amandoua pizze, dar ramane sa manance doar 2 felii, si felia nemancata ramane pe farfurie, Alin vazind-o si pune inaopoi in pizza,apoi vine Vlad, care ia 4 felii numai din pizza lui Andei, dar dupa ce le-a mancat pe primele 2, le lasa pe celalate doua in farfurie, Andrei le puna la loc in pizza lui ,iar apoi le mananca pe toate feliile sale inafara de cele doua. Alin fiiuind mila, ii da inca 2 lui Andrei dar scapa una pe jos dintre cele doua. Cu cate felii de pizza a ramas Andrei? Dar Alin?";
+                document.getElementById("b12").style.display="none";
+                document.getElementById("b13").style.display="block";
+                document.getElementById("b14").style.display="block";
+                document.getElementById("b15").style.display="block";
+                }
+
+                function gresit7() {
+                document.getElementById("enunt").innerHTML = "Gresit!";
+                document.getElementById("b13").style.display="none";
+                document.getElementById("b14").style.display="none";
+                document.getElementById("b15").style.display="none";
+                }
+
+                function corect4() {
+                document.getElementById("enunt").innerHTML = "Corect!";
+                document.getElementById("b13").style.display="none";
+                document.getElementById("b14").style.display="none";
+                document.getElementById("b15").style.display="none";
+                document.getElementById("b16").style.display="block";
+                }
+
+                function gresit8() {
+                document.getElementById("enunt").innerHTML = "Gresit!";
+                document.getElementById("b13").style.display="none";
+                document.getElementById("b14").style.display="none";
+                document.getElementById("b15").style.display="none";
+                }
+
+                function urmeaza4() {
+                document.getElementById("subtitlu").innerHTML = "Intrebari si raspunsuri ex.5";
+                document.getElementById("enunt").innerHTML = "Daca un tren porneste la ora 6:45, iar este prezis ca va dura 5 ore pana la destinatie, iar trenul se opreste o ora pentru a se repara o sina desprinsa, cand va ajunge trenul la destinatie? Si cat va dura calatoria?"; 
+                document.getElementById("i1").style.display="block";
+                
+
+
+
+                document.getElementById("b16").style.display="none";
+
+
+
+                }
+
+
+                             
+
+
+               
+
+
+
+               
+
+
+
+
+
+
+
+               </script>
+
+               </body>
+
+               </html>

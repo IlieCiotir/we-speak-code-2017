@@ -1,0 +1,151 @@
+h1.titlu
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -20px
+    
+}
+li
+{
+    display: inline;
+    margin-left: 35px;
+}
+a:link,a:visited
+{
+    text-align: center;
+    background: white;
+    color:black;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover,a:active
+{
+    background-color: white;
+}
+hr
+{
+    width: 1065px;
+    margin-left: 100px;
+    color: black;
+    background: black;
+    height: 1px;
+}
+
+.chenar
+{
+    width: 1200px;
+    height: 3000px;
+    background-color: #99bbff;
+    border: 2px #99bbff ;
+    margin-left: 30px;
+    margin-top: -70px;
+    text-align: center;
+
+}
+h1.lon
+{font-size: 40px;
+margin-left: 520px;}
+img.img1
+{
+    margin-left: 180px;
+}
+img.tx1
+{
+    padding-top: 100px;
+}
+h1.tx2
+{
+    color: black;
+    margin-left: -700px;
+    margin-top: 30px;
+}
+p.tx3
+{
+    font-size: 23px;
+    padding-top: 50px;
+    color: black;
+    border: 1px;
+    width: 660px;
+    height: 100px;
+}
+p.tx4
+{
+    text-align: left;
+    margin-left: 75px;
+    font-size: 22px;
+}
+a.tx5
+{background-color:#99bbff }
+h1.tx6
+{
+    font-size: 50px;
+}
+.chenar2
+{
+    width: 1100px;
+    height: 350px;
+    background-color: #85A6ED;
+    margin-left: 50px;
+}
+.chenar3
+{
+    width: 1100px;
+    height: 350px;
+    background-color: #85A6ED;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+img.poz1
+{
+    margin-top: 38px;
+    margin-left: 600px;
+}
+p.tx7
+{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    width: 500px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+h1.tx8
+{
+    margin-top: -270px;
+    margin-left: -480px;
+}
+img.poz2
+{
+    margin-top: 38px;
+    margin-left: -500px;
+}
+p.tx9
+{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    width: 500px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 550px;
+}
+h1.tx10
+{
+    margin-top: -270px;
+    margin-left: 550px;
+}

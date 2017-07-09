@@ -1,0 +1,12 @@
+<h1 {
+	background-color: red;
+}
+.text-rotit {
+	text-align:center; 
+	color:#AA99ff;
+	transform: rotate(190deg);
+	
+}
+#primul {
+	font-size:300px;
+}

@@ -1,0 +1,108 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.SummonersRift {
+margin-top: 50px;
+padding: 10px 50px;
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+}
+.img1 {
+margin-left: 300px;
+margin-top: 20px;
+margin-bottom: 20px
+}
+.titlu {
+margin-top: 50px;
+text-align: center;
+font-family: arial;
+}
+.devider {
+text-align: center;
+margin-top: -15px;
+}
+.img1{
+ margin: auto;
+ width: 17%;
+  
+}
+.ceva {
+margin-top: -15px;
+}
+.ADC {
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+padding: 2px 50px;
+}
+.assasin {
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+padding: 2px 50px;
+}
+.tank {
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+padding: 2px 50px;
+}
+.mage {
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+padding: 2px 50px;
+}
+.support {
+color: white;
+background: url("http://imgur.com/tF0Ssfc.png") no-repeat;
+background-size: cover;
+padding: 2px 50px;
+}
+.img2 {
+margin-left: 600px;
+margin-top: 20px;
+margin-bottom: 20px
+}
+.ceva1 {
+margin-top: -40px;
+margin-left: 70px;
+}
+.chestii {
+margin-top: -35px;
+margin-left: 62px;
+}
+.ceva3 {
+margin-left: 70px;
+margin-top: -40px;
+
+}
+.ceva4 {
+margin-top: -50px;
+margin-left: 65px;
+}
+.ceva5 {
+margin-top: -30px;
+margin-left: 65px;
+
+}
+.button {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+a {
+color:white;
+
+
+}

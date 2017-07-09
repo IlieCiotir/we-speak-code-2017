@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>#WeSpeakCode</title>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+     function showElement(id) {
+         var element = document.getElementById(id);
+         element.style.display = "block";
+     }
+
+     function hideElement(id) {
+         var element = document.getElementById(id);
+         element.style.display = "none";
+     }
+ </script>
+ <style>
+ body{
+   margin: 0px;
+   font-family: Raleway;
+ }
+ .left{
+   float: left;
+   padding: 15px;
+   letter-spacing: 3px;
+ }
+ .left:hover{
+   background-color: lightgrey;
+ }
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+ .right{
+   float: right;
+ }
+ .right a{
+   display: inline-block;
+   padding: 15px;
+ }
+ .navbar{
+ overflow-y: auto;
+ position: fixed;
+ left: 0;
+ top: 0;
+ text-align: center;
+ width: 100%;
+ z-index: 10000;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.right a:hover{
+  background-color: lightgray;
+}
+.cover{
+  background-image: url("https://www.w3schools.com/w3images/mac.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+ width: 100%;
+ margin-top: -100px;
+ height: 750px;
+}
+.cover h1{
+  color: white;
+  padding-top: 280px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-left: 45px;
+}
+.cover p{
+  color: white;
+  margin-left: 45px;
+  margin-top: 40px;
+  font-size: 110%;
+}
+.button1{
+  background-color: white;
+  opacity: 0.6;
+  height: 40px;
+  width: 20%;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 45px;
+  margin-top: 30px;
+  font-size: 110%;
+}
+.button1:hover{
+  opacity: 0.8;
+}
+.media{
+  margin-top: 120px;
+  margin-left: 45px;
+}
+.media i{
+  font-size: 18px;
+  color: white;
+  opacity: 0.4;
+}
+.media i:hover{
+opacity: 0.2;
+}
+.center{
+  text-align: center;
+}
+.card1{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.sector{
+  display: inline-block;
+  height: 250px;
+  width: 22%;
+  text-align: center;
+  margin: 8px;
+  margin-top: 70px;
+}
+.sector p{
+  line-height: 170%;
+}
+.sector i{
+  font-size: 60px !important;
+}
+a i {
+  font-size: 15px !important;
+}
+.subt{
+  font-size: 20px;
+}
+.card2{
+  background-color: #f1f1f1;
+  padding: 128px 16px;
+  height: 300px;
+}
+div.card2 {
+  display: inline-block;
+}
+.button2{
+  background-color: black;
+  color: white;
+  width: 28%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.button2:hover{
+  color: black;
+  background-color: lightgrey;
+}
+.img1{
+  float: right;
+  width: 50%;
+}
+.text1{
+  float: left;
+  width: 45%;
+  padding-left: 20px;
+}
+.card3{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.profile{
+  width: 22%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 10px;
+  margin: 3px;
+  margin-top: 10px;
+}
+.button3{
+  color: black;
+  background-color: #eaebed;
+  text-align: center;
+  padding: 10px;
+}
+.button3 i{
+  font-size: 13px;
+}
+.button3:hover{
+  background-color: lightgray;
+}
+.header{
+  font-size: 150%;
+}
+.job{
+  color: #a3a5a8;
+}
+.stats{
+  background-color: #636262;
+  color: white;
+  text-align: center;
+  padding: 4px;
+}
+.numbers{
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  margin: 50px;
+}
+span{
+  font-size: 200%;
+  margin: 5px;
+}
+.card4{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 10px;
+}
+.lightbox {
+     background-color: black;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     display: none;
+ }
+
+ .lightbox .lightbox-image {
+     margin-top: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+ }
+.card4 img{
+  padding: 5px;
+  width: 280px;
+}
+.card4 img:hover{
+  opacity: 0.6;
+}
+.card5{
+  background-color: #f1f1f1;
+  height: 300px;
+}
+.img2{
+  float: right;
+  width: 40%;
+  padding: 40px;
+}
+.img2 i{
+  margin-right: 10px;
+}
+.text2{
+  float: left;
+  width: 40%;
+  padding: 40px;
+}
+.skills{
+  letter-spacing: 5px;
+}
+.scale{
+  width: 100%;
+  background-color: #bbb;
+  height: 26px;
+  margin-top: 15px;
+}
+
+.gray{
+  position: relative;
+  margin-top: -20px;
+  height: 22px;
+  background-color: #505151;
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin-top: 15px;
+  padding: 2px;
+}
+.card6{
+  background-color: #616161;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+}
+.basic{
+  text-align: center;
+  width: 30%;
+  background-color: white;
+  border-bottom: solid 1px lightgray;
+  display: inline-block;
+  margin: 18px;
+}
+.boss{
+  background-color: black;
+  color: white;
+  font-size: 150%;
+  padding: 40px;
+  margin: 0px;
+}
+.basic div{
+  padding: 20px 25px;
+  border-bottom: solid 1px lightgray;
+}
+.price{
+  font-size: 200%;
+}
+.add {
+  color: gray;
+}
+.basic:hover{
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.extra{
+  background-color: #f1f1f1;
+}
+.button4{
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 15px;
+  margin-left: 100px;
+}
+.button4:hover{
+  background-color: lightgray;
+  color: black;
+}
+.pro{
+  color: white;
+  background-color: #f44336;
+  font-size: 150%;
+  padding: 60px;
+  margin: 0px;
+}
+.card7{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+  height: 650px;
+}
+.img3{
+  float: right;
+  width: 40%;
+  padding: 40px;
+}
+.text3{
+  float: left;
+  width: 40%;
+  padding: 40px;
+}
+.text3 i{
+  font-size: 40px;
+  margin-right: 10px;
+}
+.text3 p{
+  padding-bottom: 5px;
+}
+input{
+  width: 100%;
+  height: 31px;
+  margin: 10px;
+  font-size: 100%;
+  padding: 5px;
+  padding-left: 7px;
+  border: solid 1px #c1c1c1;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#c1c1c1;
+}
+.button5{
+  color: white;
+  background-color: black;
+  width: 35%;
+  padding: 5px;
+}
+.button5 i{
+  font-size: 15px;
+}
+.button5:hover{
+  color: black;
+  background-color: lightgray;
+}
+.footer{
+  height: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.button6{
+  padding: 1px;
+  color: black;
+  background-color: white;
+  width: 10%;
+  display: inline-block;
+  margin-top: 55px;
+}
+.button6:hover{
+  background-color: lightgray;
+}
+.media2{
+  font-size: 25px;
+  margin-top: 10px;
+}
+.media2 i:hover{
+  opacity: 0.7;
+}
+ </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="left"><a href="#home">LOGO</a></div>
+    <div class="right">
+      <a href="#about">ABOUT</a>
+      <a href="#team">
+        <i class="material-icons">&#xe7fd;</i>
+TEAM</a>
+      <a href="#work">
+        <i class="fa">&#xf00a;</i>
+WORK</a>
+      <a href="#pricing">
+        <i class="fa">&#xf155;</i>
+PRICING</a>
+      <a href="#contact">
+        <i class="material-icons">&#xe159;</i>
+CONTACT</a>
+    </div>
+  </div>
+<div class="cover" id="home">
+  <h1>Start something that matters</h1>
+  <p>Stop wasting valuable time with projects that just isn't you.</p>
+  <a href="#about"><div class="button1">Learn more and start today</div></a>
+  <div class="media">
+    <i class="fa">&#xf230;</i>
+    <i class="fa">&#xf16d;</i>
+    <i class="fa">&#xf2ab;</i>
+    <i class="fa">&#xf231;</i>
+    <i class="fa">&#xf099;</i>
+    <i class="fa">&#xf0e1;</i>
+</div>
+</div>
+<div id="about" class="card1">
+  <p class="center" style="font-size: 140%;">ABOUT THE COMPANY</h1>
+  <p class="center" style="font-size: 120%;">Key features of our company</p>
+<div class="sector" style="margin-left: 35px;">
+  <i class="fa">&#xf108;</i>
+  <p class="subt">Responsive</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="sector">
+  <i class="fa">&#xf004;</i>
+  <p class="subt">Passion</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="sector">
+  <i class="fa">&#xf219;</i>
+  <p class="subt">Design</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="sector">
+  <i class="material-icons">&#xe8b8;</i>
+  <p class="subt">Support</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+</div>
+</div>
+<div class="card2">
+  <div class="text1">
+  <p style="font-size: 150%;">We know design.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore.</p>
+<div class="button2">
+   <p><i class="fa" style="font-size: 13px; margin: 5px;">&#xf00a;</i>View Our Works</p>
+</div>
+</div>
+<div class="img1">
+  <img src="https://www.w3schools.com/w3images/phone_buildings.jpg"
+  width="600" height="344" style="border-radius: 15px;">
+</div>
+</div>
+<div class="card3" id="team">
+  <p style="text-align: center; font-size: 140%;">THE TEAM</p>
+  <p style="text-align: center; font-size: 120%;">The ones that run this company</p>
+  <div class="profile" style="margin-left: 35px;">
+    <img src="https://www.w3schools.com/w3images/team2.jpg" width="280" height="200"></img>
+    <p class="header">John Doe</p>
+    <p class="job">CEO&Founder</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <a href="#contact"><div class="button3">
+      <i class="material-icons">&#xe159;</i>Contact
+    </div></a>
+</div>
+  <div class="profile">
+    <img src="https://www.w3schools.com/w3images/team1.jpg" width="280" height="200"></img>
+    <p class="header">Anja Doe</p>
+    <p class="job">Art Director</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <a href="#contact"><div class="button3">
+    <i class="material-icons">&#xe159;</i>
+Contact
+    </div></a>
+</div>
+<div class="profile">
+  <img src="https://www.w3schools.com/w3images/team3.jpg" width="280" height="200"></img>
+    <p class="header">Mike Ross</p>
+    <p class="job">Web Designer</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <a href="#contact"><div class="button3">
+    <i class="material-icons">&#xe159;</i>
+Contact
+    </div></a>
+</div>
+  <div class="profile">
+    <img src="https://www.w3schools.com/w3images/team4.jpg" width="280" height="200"></img>
+    <p class="header">Dan Star</p>
+    <p class="job">Designer</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <a href="#contact"><div class="button3">
+    <i class="material-icons">&#xe159;</i>
+Contact
+    </div></a>
+</div>
+</div>
+<div class="stats">
+  <div class="numbers">
+    <p><span>14+</span></p><p> Partners</p>
+  </div>
+  <div class="numbers">
+    <p><span>55+</span></p><p> Projects Done</p>
+  </div>
+  <div class="numbers">
+    <p><span>89+</span></p><p> Happy Clients</p>
+  </div>
+  <div class="numbers">
+    <p><span>150+</span></p><p> Meetings</p>
+  </div>
+</div>
+<div class="card4" id="work">
+<p  style="text-align: center; font-size: 140%;">OUR WORK</p>
+<p  style="text-align: center; font-size: 120%;">What we've done for people</p>
+<img onclick="showElement('lightbox-1')" src="https://www.w3schools.com/w3images/tech_mic.jpg" style="padding-left: 20px;">
+<div id="lightbox-1" onclick="hideElement('lightbox-1')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_mic.jpg">
+</div>
+<img onclick="showElement('lightbox-2')" src="https://www.w3schools.com/w3images/tech_phone.jpg">
+<div id="lightbox-2" onclick="hideElement('lightbox-2')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_phone.jpg">
+</div>
+<img onclick="showElement('lightbox-3')" src="https://www.w3schools.com/w3images/tech_drone.jpg">
+<div id="lightbox-3" onclick="hideElement('lightbox-3')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_drone.jpg">
+</div>
+<img onclick="showElement('lightbox-4')" src="https://www.w3schools.com/w3images/tech_sound.jpg">
+<div id="lightbox-4" onclick="hideElement('lightbox-4')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_sound.jpg">
+</div>
+<img onclick="showElement('lightbox-5')" src="https://www.w3schools.com/w3images/tech_tablet.jpg" style="padding-left: 20px;">
+<div id="lightbox-5" onclick="hideElement('lightbox-5')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_tablet.jpg">
+</div>
+<img onclick="showElement('lightbox-6')" src="https://www.w3schools.com/w3images/tech_camera.jpg">
+<div id="lightbox-6" onclick="hideElement('lightbox-6')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_camera.jpg">
+</div>
+<img onclick="showElement('lightbox-7')" src="https://www.w3schools.com/w3images/tech_typewriter.jpg">
+<div id="lightbox-7" onclick="hideElement('lightbox-7')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_typewriter.jpg">
+</div>
+<img onclick="showElement('lightbox-8')" src="https://www.w3schools.com/w3images/tech_tableturner.jpg">
+<div id="lightbox-8" onclick="hideElement('lightbox-8')" class="lightbox">
+  <img class="lightbox-image" src="https://www.w3schools.com/w3images/tech_tableturner.jpg">
+</div>
+</div>
+<div class="card5">
+  <div class="text2">
+  <p style="font-size: 150%;">Our Skills.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore.</p>
+</div>
+<div class="img2">
+  <p class="skills"><i class="fa">&#xf030;</i>Photography</p>
+  <div class="scale">
+    <div class="gray" style="width: 90%;">90%</div>
+  </div>
+  <p class="skills"><i class="fa">&#xf108;</i>Web Design</p>
+  <div class="scale">
+    <div class="gray" style="width: 85%;">85%</div>
+  </div>
+  <p class="skills"><i class="fa">&#xf03e;</i>Photoshop</p>
+  <div class="scale">
+  <div class="gray" style="width: 75%;">75%</div>
+</div>
+  </div>
+</div>
+<div class="card6" id="pricing">
+  <p style="text-align: center; font-size: 140%; color: white;">PRICING</p>
+  <p style="text-align: center; font-size: 120%; color: white;">Choose a pricing plan that fits your needs.</p>
+<div class="basic">
+  <p class="boss">Basic</p>
+    <div class="s"><strong>10GB</strong> Storage</div>
+    <div class="s"><strong>10</strong> Emails</div>
+    <div class="s"><strong>10</strong> Domains</div>
+    <div class="s"><strong>Endless</strong> Support</div>
+    <div class="s"><p class="price">$ 10</p>
+         <p class="add">per month</p>
+    </div>
+  <div class="extra"><a href="#contact"><div class="button4">Sign Up</div></a></div>
+</div>
+<div class="basic">
+  <p class="pro">Pro</p>
+    <div class="s"><strong>25GB</strong> Storage</div>
+    <div class="s"><strong>25</strong> Emails</div>
+    <div class="s"><strong>25</strong> Domains</div>
+    <div class="s"><strong>Endless</strong> Support</div>
+    <div class="s"><p class="price">$ 25</p>
+         <p class="add">per month</p>
+    </div>
+  <div class="extra"><a href="#contact"><div class="button4">Sign Up</div></a></div>
+</div>
+  <div class="basic">
+    <p class="boss">Premium</p>
+      <div class="s"><strong>50GB</strong> Storage</div>
+      <div class="s"><strong>50</strong> Emails</div>
+      <div class="s"><strong>50</strong> Domains</div>
+      <div class="s"><strong>Endless</strong> Support</div>
+      <div class="s"><p class="price">$ 50</p>
+           <p class="add">per month</p>
+      </div>
+    <div class="extra"><a href="#contact"><div class="button4">Sign Up</div></a></div>
+  </div>
+  </div>
+  <div class="card7" id="contact">
+    <p style="text-align: center; font-size: 140%;">CONTACT</p>
+    <p style="text-align: center; font-size: 120%;">Lets get in touch. Send us a message:</p>
+    <div class="text3">
+      <p><i class="material-icons">&#xe0c8;</i>Chicago</p>
+      <p><i class="fa">&#xf095;</i>Phone: +00 151515</p>
+      <p><i class="material-icons">&#xe159;</i>Email: mail@mail.com</p>
+      <form action="#">
+        <input type="text" placeholder="Name" name="name" required></input>
+        <input type="text" placeholder="Email" name="email" required></input>
+        <input type="text" placeholder="Subject" name="subj" required></input>
+        <input type="text" placeholder="Message" name="mess" required></input>
+        <button class="button5" type="submit">
+          <p><i class="fa">&#xf1d8;</i>
+          SEND MESSAGE</p>
+        </button>
+      </form>
+    </div>
+    <div class="img3">
+      <img src="https://0.s3.envato.com/files/181242605/24_preview24.jpg" width="500px" height="500px">
+    </div>
+  </div>
+    <div class="footer">
+      <a href="#home"><div class="button6"><p><i class="fa">&#xf062;</i>To the top</p></div></a>
+      <div class="media2">
+        <i class="fa">&#xf230;</i>
+        <i class="fa">&#xf16d;</i>
+        <i class="fa">&#xf2ab;</i>
+        <i class="fa">&#xf231;</i>
+        <i class="fa">&#xf099;</i>
+        <i class="fa">&#xf0e1;</i>
+    </div>
+    <p>Powered by RK_05</p>
+    </div>
+</body>
+</html>

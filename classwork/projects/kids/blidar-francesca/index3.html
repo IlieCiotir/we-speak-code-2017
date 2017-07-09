@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cazare</title>
+        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="fa/css/font-awesome.css">
+    </head>
+    <body>
+        <div class="menu">
+        <ul>
+        <li><a class="button" href="index1.html">Acasa</a></li>
+            <li><a class="button" href="index2.html">Destinatii</a></li>
+            <li><a class="button" href="index3.html">Cazare</a></li>
+        </ul>
+         </div>
+        <div class="titlu">
+        <h1 class="text">Cazare</h1></div>
+        <div class="navbar">
+        <center>
+        <button class="button" onclick="index1.html"><i class="fa fa-home"></i> Pensiuni</button>
+        <button class="button" onclick="index2.html"><i class="fa fa-hotel"></i> Hoteluri</button>
+        <button class="button" onclick="index3.html"><i class="fa fa-tree"></i> Camping</button>     
+        </center>
+            </div>
+    <div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <img src="https://static2.visitestonia.com/images/2917724/viru_raba5_.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="http://www.weekendnotes.com/im/004/07/sundowner-at-the-outrigger1.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="https://www.sephardichouse.com/octopus/Upload/images/Pages/Spharadic-House-Hote-48.jpg" style="width:100%">
+</div>
+<div class="mySlides fade"> 
+  <img src="https://1.bp.blogspot.com/-uscwBvzBswc/WP3BsppavKI/AAAAAAAABqk/jQZJbBHPtwoUThmtVml-3jVEhp6S7FtGgCLcB/s1600/hotel%2Bsunset%2Broad%2Bbali%2B-%2BGolden%2BTulip%2BJineng.jpg" style="width:100%">
+</div>
+ <div class="mySlides fade"> 
+  <img src="https://i0.wp.com/onemorecherry.com/wp-content/uploads/2016/02/10494308_806531889377251_1604615958253024203_o.jpg
+" style="width:100%">
+</div>  
+<div class="mySlides fade"> 
+  <img src="http://www.roadtrek.com/wp-content/uploads/2014/03/Simplicity-Monterray-2048x900.jpg
+" style="width:100%">
+</div>  
+        
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+        <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+    </body>
+</html>
