@@ -1,0 +1,36 @@
+.disappear-top {
+    animation: disappear-top;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    display: block !important;
+}
+
+.slide {
+    display: none;
+}
+
+.external-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes disappear-top {
+    0% {
+        margin-top: 0;
+    }
+    99% {
+        margin-top: -180vh;
+    }
+    100% {
+        margin-top: -180vh;
+        display: none;
+    }
+}
